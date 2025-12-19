@@ -36,37 +36,39 @@ This repository contains a full-stack User Management Dashboard developed as par
 ---
 
 ## Folder Structure
+```text
 user-management-dashboard/
 │
 ├── backend/
-│ ├── models/
-│ │ └── User.js
-│ ├── routes/
-│ │ └── Users.js
-│ ├── .env
-│ ├── server.js
-│ ├── package.json
-│ └── .gitignore
+│   ├── models/
+│   │   └── User.js
+│   ├── routes/
+│   │   └── Users.js
+│   ├── .env
+│   ├── server.js
+│   ├── package.json
+│   └── .gitignore
 │
 └── frontend/
-├── public/
-│ └── index.html
-│
-├── src/
-│ ├── components/
-│ │ ├── Navbar.js
-│ │ └── UserCard.js
-│ │
-│ ├── pages/
-│ │ ├── Home.js
-│ │ ├── AddUser.js
-│ │ ├── EditUser.js
-│ │ └── ViewUser.js
-│ │
-│ ├── App.js
-│ ├── App.css
-│ ├── index.js
-│ └── index.css
-│
-├── package.json
-└── .gitignore
+    ├── public/
+    │   └── index.html
+    │
+    ├── src/
+    │   ├── components/
+    │   │   ├── Navbar.js
+    │   │   └── UserCard.js
+    │   │
+    │   ├── pages/
+    │   │   ├── Home.js
+    │   │   ├── AddUser.js
+    │   │   ├── EditUser.js
+    │   │   └── ViewUser.js
+    │   │
+    │   ├── App.js
+    │   ├── App.css
+    │   ├── index.js
+    │   └── index.css
+    │
+    ├── package.json
+    └── .gitignore
+```
