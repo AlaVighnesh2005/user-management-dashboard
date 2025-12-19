@@ -72,3 +72,54 @@ user-management-dashboard/
     ├── package.json
     └── .gitignore
 ```
+
+---
+
+## Getting Started
+
+### Clone this repository
+
+```bash
+git clone https://github.com/your-username/user-management-dashboard.git
+cd user-management-dashboard
+```
+
+## Backend Setup
+
+### Navigate to the backend folder:
+```bash
+cd backend
+npm install
+```
+## Create .env file
+```bash
+PORT=5000
+MONGODB_URI=mongodb://localhost:27017/user-management
+```
+## Start Backend Server
+```bash
+npm start
+```
+
+## Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm start
+```
+### once started, the frontend will run at:
+```bash
+http://localhost:3000
+```
+
+## API Endpoints
+```table
+| Method | Endpoint       | Description         |
+| ------ | -------------- | ------------------- |
+| GET    | /api/users     | Fetch all users     |
+| GET    | /api/users/:id | Get a single user   |
+| POST   | /api/users     | Create new user     |
+| PUT    | /api/users/:id | Update user details |
+| DELETE | /api/users/:id | Remove user         |
+```
